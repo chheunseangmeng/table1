@@ -1,0 +1,28 @@
+table{
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+    text-align: center;
+}
+th, td{
+    border: 1px solid #f1f1f1;
+    padding:15px;
+    font-size: 16px;
+}
+th{
+    background: rgb(22, 176, 22);
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:nth-child(odd){
+    background:#fff;
+}
+tr:hover{
+    background:#f2f2f2;
+}
